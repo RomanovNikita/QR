@@ -14,6 +14,7 @@
 		3DA4A9A125255B3800888EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4A99F25255B3800888EE0 /* Main.storyboard */; };
 		3DA4A9AD25255B3800888EE0 /* QRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4A9AC25255B3800888EE0 /* QRTests.swift */; };
 		3DA4A9B825255B3800888EE0 /* QRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4A9B725255B3800888EE0 /* QRUITests.swift */; };
+		3DA4A9CC25255C5A00888EE0 /* QRCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4A9CB25255C5A00888EE0 /* QRCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3DA4A9B325255B3800888EE0 /* QRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA4A9B725255B3800888EE0 /* QRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRUITests.swift; sourceTree = "<group>"; };
 		3DA4A9B925255B3800888EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA4A9CB25255C5A00888EE0 /* QRCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				3DA4A99625255B3600888EE0 /* AppDelegate.swift */,
-				3DA4A99825255B3600888EE0 /* ContentView.swift */,
 				3DA4A99A25255B3800888EE0 /* Assets.xcassets */,
-				3DA4A99F25255B3800888EE0 /* Main.storyboard */,
+				3DA4A99825255B3600888EE0 /* ContentView.swift */,
 				3DA4A9A225255B3800888EE0 /* Info.plist */,
-				3DA4A9A325255B3800888EE0 /* QR.entitlements */,
+				3DA4A99F25255B3800888EE0 /* Main.storyboard */,
 				3DA4A99C25255B3800888EE0 /* Preview Content */,
+				3DA4A9A325255B3800888EE0 /* QR.entitlements */,
+				3DA4A9CB25255C5A00888EE0 /* QRCreator.swift */,
 			);
 			path = QR;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA4A9CC25255C5A00888EE0 /* QRCreator.swift in Sources */,
 				3DA4A99925255B3600888EE0 /* ContentView.swift in Sources */,
 				3DA4A99725255B3600888EE0 /* AppDelegate.swift in Sources */,
 			);
